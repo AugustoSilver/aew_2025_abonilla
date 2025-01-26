@@ -16,8 +16,18 @@ hr{
     margin: auto;
 
 }
+.titulo2{
+    font-family: cursive;
+    margin: 20px;
+    text-align: left;
+}
 .contenido{
     font-family: cursive;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
 }
+
 
