@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.header{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    padding: 65px 50px;
+    margin-top: 40px;
+}
+.contenedor1 img{
+    height: 130px; 
+}
+.contenedor2 .menu-horizontal{
+    justify-items: center;
+}
+.menu-horizontal{
+    list-style: none;
+}
+.menu-horizontal li {
+    padding: 15px;
+    margin: 3px;
+    background-color: yellow;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.menu-horizontal li a{
+    text-decoration: none;
+    color: black;
+}
+.menu-horizontal li:hover{
+    background-color: rgb(207, 45, 172);
+}
+.menu-horizontal li a:hover{
+    color: white;
+}
+.banner img{   
+    height: 450px;
+    width: 100%;
+}
+.main{
+    display: flex;
+    height: 450px;
+    width: 100%;
+
+}
+.main .parrafo{
+    margin-left: 60px;
+    margin-top: 90px;
+    margin-right: 25px;
+    height: 300px;
+    width: 40%;
+}
+.main .parrafo p{
+    margin-top: 25px;
+}
+.main .parrafo h1{
+    color: rgb(207, 45, 172);
+}
+.main div img{
+    padding: 35px;
+    width: 115%;
+    height: 70%;
+}
+.viaje {
+    background-color: rgb(197, 245, 245);
+    padding: 15px;
+    height: 450px;
+}
+.viaje .viaje1{
+    display: flex;
+    
+}
+.viaje .viaje1 div #img1{
+  
+    height: 212px;
+    width: 270px;
+    padding: 6px;
+}
+.viaje .viaje1 div #img2{
+ 
+    height: 212px;
+    width: 1019px;
+    padding: 6px;
+}
+.viaje .viaje1 div #img3{
+ 
+    height: 212px;
+    width: 1019px;
+    padding: 6px;
+}
+.viaje .viaje1 div #img4{
+  
+    height: 212px;
+    width: 270px;
+    padding: 6px;
+}
+.footer div{
+    padding: 10px;
+	text-align: center;
+    margin: 40px;
+}
+.footer div a{
+    margin-bottom: 10px;
+    padding: 25px;
+    color: blue;
+}
